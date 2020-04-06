@@ -8,18 +8,18 @@
     // the Button ID.
     "open-reddit": {
         // This is a code that is written out in the spec, but can evolve as we need it.
-        // APP, WEB, KEY, X.Y
+        // APP, WEB, KEY, X.Y    (where x.y is the version of Morphic where this button is first supported)
         buttonType: "WEB",
-        // Support notes. Can be written in english, or supplied an i18n message bundle ID.
+        // Support notes. Can be written in english, or supplied in an i18n message bundle ID.
         // If the ID doesn't exist in the message bundles can be rendered as is.
         supportNotes: "Should work in any web browser",
-        // Icon ID from our in development set of icons
+        // Icon ID from our set of Morphic button icons (in-development) 
         buttonIconID: "open-web",
         // URL to get more information and documentation about this button.
         learnMoreUrl: "http://morphic.world/buttons/open-reddit",
         // This is the ACTUAL data that goes in the siteConfig for Morphic, so it should
         // follow the syntax and formatting used in the siteconfig. This is either a set
-        // of key value pairs as follows, or for official builtin button types a string id,
+        // of key value pairs as follows, or for official builtin button types, a simple string id,
         // see the language and screen-zoom examples below.
         buttonData: {
             "buttonId": "MakeYourOwn",
